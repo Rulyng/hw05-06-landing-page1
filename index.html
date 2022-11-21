@@ -17,28 +17,48 @@
         <header class="header">
             <div class="container header-containe">
                 <nav>
-                    <div >
-                        <ul class="menu-flex">
+                   <label for="gum">
+                    <input class="gum-button" type="checkbox" id="gum">
+                    <div class="button">
+                        <span class="crose"><svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="33" height="3.83721" fill="black"/>
+                            <rect y="7.67432" width="33" height="3.83721" fill="black"/>
+                            <rect y="15.3486" width="33" height="3.83721" fill="black"/>
+                            </svg>
+                            </span>
+                        <span class="crose-close">X</span>
+                    </div>
+                      
+                        <ul class="header__menu">
                             <li><a href="#" class="navSec navHome">Home</a></li>
                             <li><a href="#secAboutMe" class="navSec">About me</a></li>
                             <li><a href="#secSkills" class="navSec">Skills</a></li>
                             <li><a href="#secPortfolio" class="navSec">Portfolio</a></li>
                             <li><a href="#secContacts" class="navSec">Contacts</a></li>
+                           
                         </ul>
-                    </div>
+                        <div class="header__lang-gum">
+                            <span>RU</span>
+                        |
+                        <span class="lang-active">ENG</span>
+                        </div>
+                    </label>
+
+                    <div class="nav-line"></div>
+                   
                 </nav>
                 <div class="header__content">
-                    <h1 class="title1" id="secAboutMe">Denis Novik</h1>
-                    <p class="specialty">UX | UI designer
+                    <h1 class="header__title" id="secAboutMe">Denis Novik</h1>
+                    <p class="header__specialty">UX | UI designer
                         24 years old, Minsk</p>
-                    <div class="lang">
+                    <div class="header__lang">
                         <span>RU</span>
                         |
-                        <span>EN</span>
+                        <span class="lang-active">ENG</span>
                     </div>
                     
                 </div>
-                <div class="header__img"><img src="img/Group 2.1.png" alt="My foto"></div>
+                
             </div>
         </header>
         <!-- header End -->
@@ -48,13 +68,13 @@
             <div class="container about-containe">
                 <h2 class="title about__title">About me</h2>
 
-                <p class="text about__text1">Hi, I'm Denis – UX/UI designer from Minsk. <br>
+                <p class="text about__text">Hi, I'm Denis – UX/UI designer from Minsk. <br>
                     I'm interested in design and everything connected with it.</p>
 
-                <p class="text about__text1">I'm studying at courses "Web and mobile design <br>
+                <p class="text about__text">I'm studying at courses "Web and mobile design <br>
                     interfaces" in IT-Academy.</p>
 
-                <p class="text">Ready to implement excellent projects <br>
+                <p class="text about__text">Ready to implement excellent projects <br>
                     with wonderful people.</p>
 
             </div>
@@ -65,7 +85,7 @@
         <!-- Skills -->
         <section class="skills">
             <div class="container skills__containe">
-                <h2 class="title skills__title" id="secSkills">Skills</h2>
+                 <h2 class="title skills__title" id="secSkills">Skills</h2>
                 <p class="text skills__text">I work in such programs as</p>
                 <div class="skills__technologies">
                     <div class="skills__ithems">
@@ -125,36 +145,41 @@
             <div class="container portfolio__containe">
                 <h2 class="title portfolio__title" id="secPortfolio">Portfolio</h2>
                 <div class="portfolio__img">
-                    <img src="img/fashion.png" alt="foto1" width="300">
+                    <img src="img/fashion.png" alt="fashion" width="300">
                 </div>
                 <p class="text portfolio__text">Online fashion store - Homepage</p>
                 <div class="portfolio__img">
-                    <img src="img/reebok_web (3).png" alt="foto1" width="300">
+                    <img src="img/reebok_web (3).png" alt="reebok" width="300">
                 </div>
                 <p class="text portfolio__text">Reebok Store - Concept</p>
                 <div class="portfolio__img">
-                    <img src="img/braun-landing.png" alt="foto1" width="300">
+                    <img src="img/braun-landing.png" alt="braun" width="300">
                 </div>
                 <p class="text portfolio__text">Braun Landing Page - Concept</p>
             </div>
         </section>
         <!-- Portfolio End-->
 
-        <!-- Contacts -->
+        <!-- footer -->
         <footer class="footer">
-            <section class="contacts">
-                <div class="container contacts__contain">
-                    <h2 class="title contacts__title" id="secContacts">Contacts</h2>
-                    <p class="text contacts__text">Want to know more or just chat? <br>
+
+                <div class="container footer__contain">
+                    <h2 class="title footer__title" id="secContacts">Contacts</h2>
+                    <p class="text footer__text">Want to know more or just chat? <br>
                         You are welcome!</p>
-                    <div class="contacts__button"><img src="img/Group 2.png" alt=""></div>
-                    <div class="contacts__ithems"><img src="img/Social-group.png" alt=""></div>
+                    <button class="footer__button text">Send message</button>
+                       <div class="footer__social-row">
+                        <div class="footer__social-item"><img src="img/Link.png" alt=""></div>
+                        <div class="footer__social-item"><img src="img/Insta.png" alt=""></div>
+                        <div class="footer__social-item"><img src="img/Behance.png" alt=""></div>
+                        <div class="footer__social-item"><img src="img/Drible.png" alt=""></div>
+                       </div>
     
-                    <p class="contacts__link-text">Like me on LinkedIn, Instagram, Behance, Dribble</p>
+                    <p class="footer__link-text">Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>
                 </div>
-            </section>
+
         </footer>
-        <!-- Contacts end -->
+        <!-- footer end -->
     </div>
 
 </body>
