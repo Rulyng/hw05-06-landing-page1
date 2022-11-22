@@ -80,7 +80,7 @@ margin-bottom: 95px;
 
   .navSec:hover{
   color:  #6e6767a7;
-  transform: scale(1.3);
+  transform: scale(1.2);
   transition: 2s;
   }
  
@@ -155,6 +155,7 @@ color: #828282;
   line-height: 39px;
   }
   .navSec:hover{
+    color: #828282;
          transform: scale(1);
         }
 
@@ -191,7 +192,7 @@ color: #828282;
 }
 .crose-close{
 position: absolute;
-top: 76px;
+top: 86px;
 right: 28px;
 z-index: 1;
 }
