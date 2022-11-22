@@ -142,7 +142,7 @@ color: #828282;
 
 @media (max-width: 576px) {
   .header-containe{
-    padding: 68px 29px 42px;
+    padding: 66px 29px 42px;
      }
   nav {
     margin-bottom: 45px;
@@ -166,11 +166,10 @@ color: #828282;
   display: none;
 }
 .header__menu{
-margin-top: 0px;
+margin-top: 0;
 height: 0;
 overflow: hidden;
 position: relative;
-top: 0;
  width: 100vw;
 flex-direction: column;
 justify-content: start;
@@ -192,7 +191,7 @@ color: #828282;
 }
 .crose-close{
 position: absolute;
-top: 150px;
+top: 76px;
 right: 28px;
 z-index: 1;
 }
@@ -200,7 +199,6 @@ z-index: 1;
 .gum-button:checked ~ .header__menu {
 background-color: white;
 height: 812px;
-padding: 66px 0 0 26px;
 }
 
 .gum-button:checked~.button .crose {
