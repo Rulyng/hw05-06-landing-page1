@@ -16,7 +16,7 @@
         <!-- header -->
         <header class="header">
             <div class="container header-containe">
-                <nav>
+                <nav id="#secHome">
                    <label for="gum">
                     <input class="gum-button" type="checkbox" id="gum">
                     <div class="button">
@@ -30,23 +30,21 @@
                     </div>
                       
                         <ul class="header__menu">
-                            <li><a href="#" class="navSec navHome">Home</a></li>
+                            <li><a href="#secHome" class="navSec navHome">Home</a></li>
                             <li><a href="#secAboutMe" class="navSec">About me</a></li>
                             <li><a href="#secSkills" class="navSec">Skills</a></li>
                             <li><a href="#secPortfolio" class="navSec">Portfolio</a></li>
                             <li><a href="#secContacts" class="navSec">Contacts</a></li>
-                           
-                        </ul>
-                        <div class="header__lang-gum">
-                            <span>RU</span>
-                        |
-                        <span class="lang-active">ENG</span>
+                          
+                           <div class="header__lang-gum"><span>RU</span>
+                            |
+                            <span class="header__lang-gum-active">ENG</span>
                         </div>
+                        </ul>
+                        
                     </label>
 
-                    <div class="nav-line"></div>
-                   
-                </nav>
+                 </nav>
                 <div class="header__content">
                     <h1 class="header__title" id="secAboutMe">Denis Novik</h1>
                     <p class="header__specialty">UX | UI designer
@@ -54,12 +52,14 @@
                     <div class="header__lang">
                         <span>RU</span>
                         |
-                        <span class="lang-active">ENG</span>
+                        <span class="header__lang-active">ENG</span>
                     </div>
-                    
-                </div>
-                
-            </div>
+                                    </div>
+                                    <picture class="header__img">
+                                        <source media="(min-width: 576px)" srcset="img/Group-2.1.png" sizes="">
+                                        <img src="img/Foto-mob.png" alt="">
+                                    </picture>
+                             </div>
         </header>
         <!-- header End -->
 
